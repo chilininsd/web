@@ -1,0 +1,16 @@
+alias eclipse="/home/reuben/installs/eclipse/eclipse &"
+alias netbeans="/usr/local/netbeans-7.3.1/bin/netbeans &"
+alias hfs="hadoop fs"
+alias hjob="hadoop job"
+alias okular="okular 2>>/dev/null"
+alias scheme="mit-scheme-x86-64"
+
+export CATALINA_HOME=/home/reuben/installs/tomcat-7.0.34
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export M2_HOME=/home/reuben/installs/maven-3.1.0
+export M2=$M2_HOME/bin
+export MAVEN_OPTS="-Xms256m -Xmx512m"
+export HADOOP_INSTALL="/home/reuben/installs/hadoop-1.2.1"
+export HADOOP_CLASSPATH="/home/reuben/installs/hadoop-1.2.1/hadoop-core-1.2.1.jar"
+
+PATH=$PATH:/home/reuben/installs/sublime/:/home/reuben/installs/maven-3.1.0/bin:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$JAVA_HOME/bin

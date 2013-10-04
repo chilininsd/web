@@ -1,0 +1,13 @@
+[user]
+	name = chilininsd
+	email = reuben123@gmail.com
+[url "https://github.com/chilininsd/ai.git"]
+     insteadOf = ai
+[url "https://github.com/chilininsd/programminglanguages.git"]
+     insteadOf = pl
+[url "https://github.com/chilininsd/softwareengineering.git"]
+     insteadOf = se
+[url "https://github.com/CS597/ReubenTanner.git"]
+     insteadOf = bigdata
+[url "https://github.com/chilininsd/web.git"]
+     insteadOf = website
